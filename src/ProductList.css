@@ -1,0 +1,32 @@
+
+.product-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    border: 1px solid #1bb8d4;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-item img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+  }
+  
+  .product-item .product-title {
+    font-weight: bold;
+  }
+  
+  .product-item .product-price {
+    color: rgba(11, 6, 6, 0.701);
+  }
+  
+  .product-item .product-description {
+    font-size: 0.9rem;
+  }

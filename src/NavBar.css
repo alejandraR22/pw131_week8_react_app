@@ -1,0 +1,46 @@
+.NavBar {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.NavBar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.NavBar li {
+  margin-right: 20px;
+}
+
+.NavBar a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s, background-color 0.3s; 
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.NavBar a:hover {
+  background-color: #0056b3; 
+  color: #fff;
+}
+
+
+.NavBar {
+  background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg');
+  background-size: cover;
+}
+
+
+.NavBar a {
+  font-family: 'Your Custom Font', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+  
